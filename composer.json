@@ -1,0 +1,39 @@
+{
+    "name": "ffhome/wechat",
+    "description": "wechat",
+    "keywords": [
+        "wechat"
+    ],
+    "homepage": "http://ffhome.top/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "john.shen",
+            "email": "john.shen@foxmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "ffhome/php-common": "^1.3.3",
+        "topthink/framework": "^6.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "files": [],
+        "psr-4": {
+            "ffhome\\wechat\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ffhome\\tests\\wechat\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    }
+}
